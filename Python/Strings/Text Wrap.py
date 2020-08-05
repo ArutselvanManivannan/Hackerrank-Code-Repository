@@ -1,0 +1,9 @@
+# https://www.hackerrank.com/challenges/text-wrap/problem
+
+
+def wrap(string, max_width):
+    tw = textwrap.wrap(string, max_width)
+
+    return '\n'.join(tw)
+
+# github.com/ArutselvanManivannan
